@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curso_programacao/curso_programacao.iml" filepath="$PROJECT_DIR$/curso_programacao/curso_programacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrada_usuario/entrada_usuario.iml" filepath="$PROJECT_DIR$/entrada_usuario/entrada_usuario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_condicional/estrutura_condicional.iml" filepath="$PROJECT_DIR$/estrutura_condicional/estrutura_condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_condicional/estrutura_repetitiva_while/estrutura_repetitiva_while.iml" filepath="$PROJECT_DIR$/estrutura_condicional/estrutura_repetitiva_while/estrutura_repetitiva_while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicio_estrutura_condicional/exercicio_estrutura_condicional.iml" filepath="$PROJECT_DIR$/exercicio_estrutura_condicional/exercicio_estrutura_condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_condicional/exercicio_estrutura_repetitiva/exercicio_estrutura_repetitiva.iml" filepath="$PROJECT_DIR$/estrutura_condicional/exercicio_estrutura_repetitiva/exercicio_estrutura_repetitiva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_condicional/exercicio_estrutura_repetitiva_for/exercicio_estrutura_repetitiva_for.iml" filepath="$PROJECT_DIR$/estrutura_condicional/exercicio_estrutura_repetitiva_for/exercicio_estrutura_repetitiva_for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercios_estrutura_sequencial_while/exercios_estrutura_sequencial_while.iml" filepath="$PROJECT_DIR$/exercios_estrutura_sequencial_while/exercios_estrutura_sequencial_while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funcoes_matematica/funcoes_matematica.iml" filepath="$PROJECT_DIR$/funcoes_matematica/funcoes_matematica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_condicional/operadores_de_atribuicao_cumulativa/operadores_de_atribuicao_cumulativa.iml" filepath="$PROJECT_DIR$/estrutura_condicional/operadores_de_atribuicao_cumulativa/operadores_de_atribuicao_cumulativa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estrutura_condicional/switch_case/switch_case.iml" filepath="$PROJECT_DIR$/estrutura_condicional/switch_case/switch_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teste-processamento/teste-processamento.iml" filepath="$PROJECT_DIR$/teste-processamento/teste-processamento.iml" />
+    </modules>
+  </component>
+</project>
