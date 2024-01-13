@@ -40,7 +40,7 @@ public class Conta {
     }
 
     public void retirar(Double quantia) {
-        saldo -= quantia;
+        saldo -= quantia + 5.0;
     }
 
     public void deposito(Double quantia) {
