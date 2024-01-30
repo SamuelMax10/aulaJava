@@ -1,7 +1,5 @@
 import model.entities.Reservas;
 
-import javax.lang.model.util.ElementScanner6;
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
