@@ -1,8 +1,8 @@
 package model.service;
 
-public class BrasilTaxServico {
+public class BrasilTaxServico implements TaxService {
 
-    public double fatura(double quantidade) {
+    public double tax(double quantidade) {
         if (quantidade <= 100) {
             return quantidade * 0.2;
         } else {
