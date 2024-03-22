@@ -19,7 +19,7 @@ public class Main {
 
         ProductService ps = new ProductService();
 
-        double sum = ps.filtroSoma((list, p -> p.getprice() < 100.0);
+        double sum = ps.filtroSoma(list, p -> p.getPrice() < 100.00 );
 
         System.out.printf("Soma = "+String.format("%.2f",sum));
 
