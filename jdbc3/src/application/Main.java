@@ -32,12 +32,10 @@ public class Main {
         try {
             con = DB.getConexao();
 
-            ps = con.prepareStatement(
-                    "INSERT INTO seller "
-                            + "(Name, Email, BirthDate, BaseSalary, DepartmentID)"
-                            + "VALUES "
-                            + "(?,?,?,?,?)"
-                            + Statement.RETURN_GENERATED_KEYS);
+            ps = con.prepareStatement("INSERT INTO seller "
+                    + "(Name, Email, BirthDate, BaseSalary, DepartmentId)"
+                    + "VALUES "
+                    + "(?,?,?,?,?)",Statement.RETURN_GENERATED_KEYS);
 
             ps.setString(1, nome);
             ps.setString(2, email);
@@ -45,23 +43,23 @@ public class Main {
             ps.setDouble(4, baseSalario);
             ps.setInt(5, departamento);
 
-            int linhasAlterada = ps.executeUpdate();
+           int linhasAfetadas = ps.executeUpdate();
 
-//            if (linhasAlterada > 0) {
-//                ResultSet rs = ps.getGeneratedKeys();
-//                while (rs.next()) {
-//                    int id = rs.getInt(1);
-//                    System.out.println("Pronto! ID = " + id);
-//                }
-//
-//            } else {
-//                System.out.println("Nenhuma linha foi alterada. ");
-//            }
+            if (linhasAfetadas > 0) {
+                ResultSet rs = ps.getGeneratedKeys();
+                while (rs.next()) {
+                    int id = rs.getInt(1);
+                    System.out.println("Pronta! ID = " + id);
+                }
+            } else {
+                System.out.println("Não houve linhas afetadas.");
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();
+        } finally {
+            DB.fechaStatement(ps);
+            DB.fechaConexao();
         }
-        DB.fechaStatement(ps);
-        DB.fechaConexao();
     }
 }

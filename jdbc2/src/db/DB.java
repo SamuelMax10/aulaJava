@@ -42,8 +42,8 @@ public class DB {
 
     }
 
-    public static void fechaStatement (Statement st){
-        if (st != null){
+    public static void fechaStatement(Statement st) {
+        if (st != null) {
             try {
                 st.close();
             } catch (SQLException e) {
@@ -52,8 +52,8 @@ public class DB {
         }
     }
 
-    public static void fechaResultset(ResultSet rs){
-        if (rs != null){
+    public static void fechaResultset(ResultSet rs) {
+        if (rs != null) {
             try {
                 rs.close();
             } catch (SQLException e) {
